@@ -1,0 +1,18 @@
+{
+  "homepage": "https://jisanamin19111.github.io/Jisan-Amin-Portfolio-Website",
+  "name": "jisan-amin-portfolio-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
