@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Jisan-Amin-Portfolio-Website/static/css/main.458af2e0.css",
+    "main.js": "/Jisan-Amin-Portfolio-Website/static/js/main.e845ef5d.js",
+    "index.html": "/Jisan-Amin-Portfolio-Website/index.html",
+    "main.458af2e0.css.map": "/Jisan-Amin-Portfolio-Website/static/css/main.458af2e0.css.map",
+    "main.e845ef5d.js.map": "/Jisan-Amin-Portfolio-Website/static/js/main.e845ef5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.458af2e0.css",
+    "static/js/main.e845ef5d.js"
+  ]
+}
