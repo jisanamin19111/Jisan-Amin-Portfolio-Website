@@ -75,4 +75,4 @@ const App = () => (
     </div>
 );
 
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+export default App;
