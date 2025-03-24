@@ -53,7 +53,7 @@ const Resume = () => (
     <section id="resume" className="container py-5 text-center">
         <h2>Resume</h2>
         <iframe 
-            src="Jisan_Amin_Resume_2025-2.pdf" 
+            src="/Jisan_Amin_Resume_2025-2.pdf" 
             width="100%" 
             height="600px"
             title="Jisan Amin Resume"
