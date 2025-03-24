@@ -94,7 +94,7 @@ const Contact = () => (
         
         <div className="d-flex justify-content-center gap-4 mt-3">
             {/* LinkedIn */}
-            <a href="www.linkedin.com/in/jisan-amin-571609249" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/jisan-amin-571609249/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin size={40} color="#0077B5" />
             </a>
 
