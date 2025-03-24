@@ -1,3 +1,5 @@
+import { FaLinkedin, FaTwitter, FaEnvelope, FaMicrosoft } from "react-icons/fa";  
+
 const Navbar = () => (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
@@ -51,7 +53,7 @@ const AboutMe = () => (
 
 const Resume = () => (
     <section id="resume" className="container py-5">
-    <h2 className="text-center">Resume</h2>
+    <h2 className="text-center mb-3">Resume</h2>
     <div className="text-center">
         <h4>Jisan Amin</h4>
         <p>US Citizen | <a href="mailto:amin.219@osu.edu">amin.219@osu.edu</a> | <a href="mailto:jisanamin1911@gmail.com">jisanamin1911@gmail.com</a></p>
@@ -88,7 +90,29 @@ const Projects = () => (
 const Contact = () => (
     <section id="contact" className="container py-5 text-center">
         <h2>Contact Me</h2>
-        <p>Let's get in touch! You can reach me at...</p>
+        <p>Let's get in touch! You can reach me through the following platforms:</p>
+        
+        <div className="d-flex justify-content-center gap-4 mt-3">
+            {/* LinkedIn */}
+            <a href="www.linkedin.com/in/jisan-amin-571609249" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin size={40} color="#0077B5" />
+            </a>
+
+            {/* Twitter */}
+            <a href="https://twitter.com/@amin_jisan65946" target="_blank" rel="noopener noreferrer">
+                <FaTwitter size={40} color="#1DA1F2" />
+            </a>
+
+            {/* Gmail */}
+            <a href="mailto:jisanamin19111@gmail.com">
+                <FaEnvelope size={40} color="#D14836" />
+            </a>
+
+            {/* Outlook */}
+            <a href="mailto:amin.219@buckeyemail.osu.edu">
+                <FaMicrosoft size={40} color="#0078D4" />
+            </a>
+        </div>
     </section>
 );
 
