@@ -38,7 +38,8 @@ const AboutMe = () => (
         <h2 className="mt-4">About Me</h2>
         <p className="lead">Hello! I'm Jisan Amin, an entry-level software developer who specializes in building and maintaining web applications. I'm currently a Senior at Ohio State
             University, majoring in Computer Science and Engineering. I enjoy learning about new technologies and figuring out how to incorporate them to 
-            develop modern and efficient applications. </p>
+            develop modern and efficient applications. My main experience is with frontend technologies like ReactJS, NodeJS, HTML5 and CSS3, however I also have a lot of experience with
+            Java and Python, and I'm currently working on a URL shortener project using Spring Boot and mySQL with Java! </p>
         
     </section>
 );
