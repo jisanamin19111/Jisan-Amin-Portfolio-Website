@@ -52,40 +52,15 @@ const AboutMe = () => (
 const Resume = () => (
     <section id="resume" className="container py-5 text-center">
         <h2>Resume</h2>
-        <p>Jisan Amin
-US Citizen | amin.219@osu.edu | jisanamin1911@gmail.com | 470-218-9481 | LinkedIn: jisan-amin | Github: jisanamin19111
-EDUCATION
-The Ohio State University Columbus, Ohio
-Bachelor’s of Science in Computer Science and Engineering Expected Graduation May 2025
-● Specialization: Software Engineering | GPA: 3.5
-● Relevant Coursework: Object-Oriented Programming, Applied Statistics, Discrete Mathematics,
-Computer Systems, Databases, Artificial Intelligence, Data Structures & Algorithms, Networks
-EXPERIENCE
-Public Utilities Commission of Ohio (PUCO) Columbus, Ohio
-Information Technology Intern May 2023 - current
-● Enhanced Salesforce CRM to improve user experience with the PUCO Community to improve
-clarity for 100+ reports or transactions
-● Used Apex programming language to create and redesign email and page layouts to improve several
-email transactions
-● Implemented Lightning Web Components/Pages to design PUCO Community websites used by a
-multitude of businesses
-PROJECTS
-PUCO Community Web Revamp Columbus, Ohio
-Developer May 2023 - current
-● Developing Apex and JavaScript solutions to streamline 100+interactions on PUCO Community
-website, improving accessibility and functionality.
-Personal Interactive Portfolio Website Columbus, Ohio
-Personal Creator December 2024 - current
-● Building a dynamic personal portfolio using React, JavaScript, CSS, and HTML, integrating
-interactive design elements and responsive layouts with Bootstrap.
-URL Shortener Columbus, Ohio
-Personal Creator current
-● Building an interactive URL shortener based on Sprint Boot
-SKILLS
-Programming Languages: Python, Java, Javascript, HTML, CSS, mySQL, C, Apex
-Frameworks/Libraries: Numpy, nodeJS, Bootstrap, Salesforce, Lightning Web Components
-Technical: Data Structures & Algorithms, Microsoft Office 365 (Docs, Excel, Powerpoint, Teams), Salesforce
-Platforms: Windows, Linux</p>
+        <iframe 
+            src="Jisan_Amin_Resume_2025-2.pdf" 
+            width="100%" 
+            height="600px"
+            title="Jisan Amin Resume"
+        ></iframe>
+        <p>
+            <a href="Jisan_Amin_Resume_2025-2.pdf" download>Download Resume</a>
+        </p>
     </section>
 );
 
