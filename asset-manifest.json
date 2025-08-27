@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Jisan-Amin-Portfolio-Website/static/css/main.458af2e0.css",
-    "main.js": "/Jisan-Amin-Portfolio-Website/static/js/main.8fbc5845.js",
+    "main.js": "/Jisan-Amin-Portfolio-Website/static/js/main.af6eb695.js",
     "index.html": "/Jisan-Amin-Portfolio-Website/index.html",
     "main.458af2e0.css.map": "/Jisan-Amin-Portfolio-Website/static/css/main.458af2e0.css.map",
-    "main.8fbc5845.js.map": "/Jisan-Amin-Portfolio-Website/static/js/main.8fbc5845.js.map"
+    "main.af6eb695.js.map": "/Jisan-Amin-Portfolio-Website/static/js/main.af6eb695.js.map"
   },
   "entrypoints": [
     "static/css/main.458af2e0.css",
-    "static/js/main.8fbc5845.js"
+    "static/js/main.af6eb695.js"
   ]
 }
