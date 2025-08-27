@@ -91,7 +91,7 @@ const App = () => (
         <Navbar />
         <Header />
         <AboutMe />
-        <Resume />
+    
         <Projects />
         <Contact />
     </div>
