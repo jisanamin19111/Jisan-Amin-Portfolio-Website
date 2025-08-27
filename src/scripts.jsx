@@ -1,4 +1,5 @@
 import { FaLinkedin, FaTwitter, FaEnvelope, FaMicrosoft } from "react-icons/fa";  
+import selfie from "./assets/selfie.png"; // Ensure the path is correct
 
 const Navbar = () => (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -33,7 +34,7 @@ const Header = () => (
 
 const AboutMe = () => (
     <section id="bio" className="container py-5 text-center">
-        <img src="selfie.png" className="img-fluid rounded-circle mb-3" width="200" height="200" alt="Profile" />
+        <img src={selfie} className="img-fluid rounded-circle mb-3" width="200" height="200" alt="Profile" />
         <h2 className="mt-4">About Me</h2>
         <p className="lead mb-3">Hello! I'm Jisan Amin, an entry-level software developer who specializes in building and maintaining web applications. I'm currently a Senior at Ohio State
             University, majoring in Computer Science and Engineering. I enjoy learning about new technologies and figuring out how to incorporate them to 
