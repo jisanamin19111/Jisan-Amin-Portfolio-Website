@@ -12,7 +12,10 @@ header {
     background-color: #333; /* Dark gray */
     color: #fff; /* White text */
 }
-
+.container {
+    background-color: #333; /* Dark gray */
+    color: #fff; /* White text */
+}
 .bio {
     background-color: #333; /* Dark gray */
     color: #fff; /* White text */
