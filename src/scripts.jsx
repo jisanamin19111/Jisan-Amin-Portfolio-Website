@@ -52,10 +52,29 @@ const AboutMe = () => (
 
 
 const Projects = () => (
-    <section id="projects" className="container py-5 text-center">
-        <h2>Projects</h2>
-        <p>My personal and professional projects will be listed here.</p>
-    </section>
+  <section id="projects" className="container py-5 text-center">
+    <h2 className="mb-4">Projects</h2>
+
+    {/* Project 1 */}
+    <div className="mb-5">
+      <h3 className="mb-3">Digiclips Media Transfer</h3>
+      <div className="ratio ratio-16x9">
+        <iframe
+          src="https://www.youtube.com/embed/Oy3p-saXHXA"
+          title="Digiclips Media Transfer Demo"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+
+    {/* Project 2 placeholder */}
+    <div>
+      <h3 className="mb-3">Another Project</h3>
+      <p>Short description of your second project goes here.</p>
+      {/* You can add an image, link, or even another video here */}
+    </div>
+  </section>
 );
 
 const Contact = () => (
