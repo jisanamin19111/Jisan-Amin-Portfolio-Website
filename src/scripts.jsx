@@ -13,9 +13,6 @@ const Navbar = () => (
                         <a className="nav-link" href="#bio">Bio</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#resume">Resume</a>
-                    </li>
-                    <li className="nav-item">
                         <a className="nav-link" href="#projects">Projects</a>
                     </li>
                     <li className="nav-item">
@@ -51,34 +48,7 @@ const AboutMe = () => (
     </section>
 );
 
-const Resume = () => (
-    <section id="resume" className="container py-5">
-    <h2 className="text-center mb-3">Resume</h2>
-    <div className="text-center">
-        <h4>Jisan Amin</h4>
-        <p>US Citizen | <a href="mailto:amin.219@osu.edu">amin.219@osu.edu</a> | <a href="mailto:jisanamin1911@gmail.com">jisanamin1911@gmail.com</a></p>
-        <p><a href="https://www.linkedin.com/in/jisan-amin-571609249" target="_blank">LinkedIn</a> | <a href="https://github.com/jisanamin19111" target="_blank">GitHub</a></p>
-    </div>
 
-    <h4>Education</h4>
-    <p><strong>The Ohio State University</strong> - Bachelor’s in Computer Science and Engineering (May 2025)</p>
-    <p>Specialization: Software Engineering | GPA: 3.5</p>
-
-    <h4>Experience</h4>
-    <p><strong>Public Utilities Commission of Ohio (PUCO)</strong> - Information Technology Intern (May 2023 - Present)</p>
-    <ul>
-        <li>Enhanced Salesforce CRM for better user experience and clarity in 100+ reports</li>
-        <li>Developed with Apex and Lightning Web Components</li>
-    </ul>
-
-    <h4>Projects</h4>
-    <p><strong>Personal Portfolio Website</strong> - Built with React, JavaScript, Bootstrap</p>
-    <p><strong>URL Shortener</strong> - Developed using Spring Boot and MySQL</p>
-
-    <h4>Skills</h4>
-    <p>Python, Java, JavaScript, HTML, CSS, MySQL, Apex, NodeJS, Salesforce, Linux</p>
-</section>
-);
 
 const Projects = () => (
     <section id="projects" className="container py-5 text-center">
